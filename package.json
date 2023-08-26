@@ -1,0 +1,29 @@
+{
+  "name": "geo-python",
+  "version": "1.0.0",
+  "description": "Curso introductorio del uso de Python para aplicaciones geoespaciales",
+  "main": "index.js",
+  "scripts": {
+    "watch": "postcss ./src/css/tailwind.css -o ./public/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOrtmann90/curso-python-geo.git"
+  },
+  "keywords": [
+    "geospatial",
+    "python",
+    "geopandas"
+  ],
+  "author": "Mauro Ortmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MOrtmann90/curso-python-geo/issues"
+  },
+  "homepage": "https://github.com/MOrtmann90/curso-python-geo#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
