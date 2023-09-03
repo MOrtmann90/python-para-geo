@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .title-1 {
+    @apply text-3xl font-bold;
+  }
+
+  .title-2 {
+    @apply text-xl font-bold text-emerald-500;
+  }
+
+  .links {
+    @apply hover:opacity-80;
+  }
+
+  .highlighted-text {
+    @apply text-red-400;
+  }
+
+  .article-class {
+    @apply p-5 text-justify lg:w-[1200px] lg:mx-auto;
+  }
+}

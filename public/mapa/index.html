@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      body {
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        background-color: #35363a;
+      }
+
+      header {
+        height: 6rem;
+        padding: 1rem;
+      }
+
+      main {
+        flex-grow: 1;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+
+      footer {
+        padding-inline: 0.5rem;
+        align-self: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Integrando datos con Python</h1>
+      <p>
+        Mapa realizado en el marco del Seminario de la Práctica Profesional
+        utilizando Geopandas en Python para preparar los datos y Folium para
+        crear el mapa.
+      </p>
+    </header>
+    <main><iframe src="mapa.html" frameborder="0"></iframe></main>
+    <footer>
+      <p>&copy; Alumno/a</p>
+    </footer>
+  </body>
+</html>
