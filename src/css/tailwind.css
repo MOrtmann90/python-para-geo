@@ -14,7 +14,7 @@
   }
 
   .links {
-    @apply hover:opacity-80;
+    @apply cursor-pointer hover:opacity-80;
   }
 
   .highlighted-text {
@@ -23,5 +23,9 @@
 
   .article-class {
     @apply p-5 text-justify lg:w-[1200px] lg:mx-auto;
+  }
+
+  li {
+    @apply my-2;
   }
 }

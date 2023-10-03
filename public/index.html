@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Geo Python</title>
     <link rel="stylesheet" href="css/main.css" />
+    <!-- AWESOME ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="text-white bg-slate-900 font-roboto">
     <header
@@ -12,7 +20,11 @@
     >
       <div
         class="absolute left-0 w-full h-full"
-        style="background: url(img/world_map.svg); background-position: center; opacity: 60%;"
+        style="
+          background: url(img/world_map.svg);
+          background-position: center;
+          opacity: 60%;
+        "
       ></div>
       <h1 class="relative title-1 text-emerald-500">
         Cuadernos de Python en la gestión de datos espaciales
@@ -22,133 +34,301 @@
         mapas interactivos con Python, Geopandas, Google Colab y Netlify
       </p>
     </header>
-    
-    <article class="article-class">
-      <h2 class="title-2">Python</h2>
-      <hr class="my-2" />
-      <p>
-        Python es un
-        <span class="highlighted-text">lenguaje de programación</span>
-        ampliamente utilizado en las aplicaciones web, el desarrollo de
-        software, la ciencia de datos y el machine learning (ML). Los
-        desarrolladores utilizan Python porque es
-        <span class="highlighted-text">eficiente y fácil de aprender</span>,
-        además de que se puede ejecutar en muchas plataformas diferentes. Python
-        se puede descargar <span class="highlighted-text">gratis</span>, se
-        integra bien a todos los tipos de sistemas y aumenta la velocidad del
-        desarrollo.
-      </p>
-    </article>
-    <article class="article-class">
-      <h2 class="title-2">Geopandas</h2>
-      <hr class="my-2" />
-      <p>
-        Geopandas es una potente biblioteca de Python diseñada para simplificar
-        y agilizar el análisis y la manipulación de
-        <span class="highlighted-text">datos geoespaciales</span>. Integra las
-        capacidades de Pandas (manipulación de datos tabulares) con
-        funcionalidades geoespaciales, permitiendo realizar tareas como la
-        lectura, escritura y manipulación de datos espaciales en formatos
-        comunes, realizar consultas espaciales, unir datos geográficos, y
-        visualizarlos en mapas interactivos.
-      </p>
-      <p>
-        Geopandas es una herramienta esencial para cualquier profesional que
-        trabaje con datos geográficos, ya que
-        <span class="highlighted-text"
-          >simplifica y agiliza las tareas de análisis y visualización</span
-        >, permitiendo un enfoque más eficiente en la toma de decisiones basada
-        en la Información Geoespacial.
-      </p>
-    </article>
-    <article class="article-class">
-      <h2 class="title-2">Google Colab</h2>
-      <hr class="my-2" />
-      <p>
-        Google Colab es una plataforma en línea de Google que proporciona un
-        entorno de
-        <span class="highlighted-text"
-          >desarrollo colaborativo basado en la nube</span
+    <!-- CONTENT -->
+    <section class="mt-20">
+      <article class="article-class">
+        <a class="title-2 links" href="https://www.python.org/">
+          Python<i
+            class="ml-2 text-sm text-center fa-solid fa-link text-neutral-500"
+          ></i>
+        </a>
+        <hr class="my-2" />
+        <p>
+          Python es un
+          <span class="highlighted-text">lenguaje de programación</span>
+          ampliamente utilizado en las aplicaciones web, el desarrollo de
+          software, la ciencia de datos y el machine learning (ML). Los
+          desarrolladores utilizan Python porque es
+          <span class="highlighted-text">eficiente y fácil de aprender</span>,
+          además de que se puede ejecutar en muchas plataformas diferentes.
+          Python se puede descargar
+          <span class="highlighted-text">gratis</span>, se integra bien a todos
+          los tipos de sistemas y aumenta la velocidad del desarrollo.
+        </p>
+      </article>
+      <article class="article-class">
+        <a
+          class="title-2 links"
+          href="https://geopandas.org/en/stable/docs.html"
         >
-        para programación en Python. Es especialmente útil para científicos de
-        datos, desarrolladores y estudiantes, ya que ofrece acceso gratuito a
-        una máquina virtual con potencia de procesamiento y memoria, junto con
-        una variedad de bibliotecas preinstaladas.
-      </p>
-      <p>
-        Colab
-        <span class="highlighted-text">
-          permite crear, editar y compartir documentos tipo "cuadernos"
-          (notebooks)
-        </span>
-        que combinan código, texto enriquecido y visualizaciones interactivas.
-        También facilita la colaboración en tiempo real, lo que lo convierte en
-        una herramienta valiosa para proyectos colaborativos y la
-        experimentación con datos y modelos de aprendizaje automático
-        <span class="highlighted-text">
-          sin necesidad de configurar un entorno local.
-        </span>
-      </p>
-      <p>
-        Está especialmente pensado para trabajar con notebooks de Python, Julia
-        y R.
-      </p>
-    </article>
-    <article class="article-class">
-      <h2 class="title-2">Netlify</h2>
-      <hr class="my-2" />
-      <p>
-        Netlify es una
-        <span class="highlighted-text"
-          >plataforma de desarrollo y alojamiento web en la nube</span
+          Geopandas<i
+            class="ml-2 text-sm text-center fa-solid fa-link text-neutral-500"
+          ></i>
+        </a>
+        <hr class="my-2" />
+        <p>
+          Geopandas es una potente biblioteca de Python diseñada para
+          simplificar y agilizar el análisis y la manipulación de
+          <span class="highlighted-text">datos geoespaciales</span>. Integra las
+          capacidades de Pandas (manipulación de datos tabulares) con
+          funcionalidades geoespaciales, permitiendo realizar tareas como la
+          lectura, escritura y manipulación de datos espaciales en formatos
+          comunes, realizar consultas espaciales, unir datos geográficos, y
+          visualizarlos en mapas interactivos.
+        </p>
+        <p>
+          Geopandas es una herramienta esencial para cualquier profesional que
+          trabaje con datos geográficos, ya que
+          <span class="highlighted-text"
+            >simplifica y agiliza las tareas de análisis y visualización</span
+          >, permitiendo un enfoque más eficiente en la toma de decisiones
+          basada en la Información Geoespacial.
+        </p>
+      </article>
+      <article class="article-class">
+        <a class="title-2 links" href="https://colab.research.google.com/">
+          Google Colab<i
+            class="ml-2 text-sm text-center fa-solid fa-link text-neutral-500"
+          ></i>
+        </a>
+        <hr class="my-2" />
+        <p>
+          Google Colab es una plataforma en línea de Google que proporciona un
+          entorno de
+          <span class="highlighted-text"
+            >desarrollo colaborativo basado en la nube</span
+          >
+          para programación en Python. Es especialmente útil para científicos de
+          datos, desarrolladores y estudiantes, ya que ofrece acceso gratuito a
+          una máquina virtual con potencia de procesamiento y memoria, junto con
+          una variedad de bibliotecas preinstaladas.
+        </p>
+        <p>
+          Colab
+          <span class="highlighted-text">
+            permite crear, editar y compartir documentos tipo "cuadernos"
+            (notebooks)
+          </span>
+          que combinan código, texto enriquecido y visualizaciones interactivas.
+          También facilita la colaboración en tiempo real, lo que lo convierte
+          en una herramienta valiosa para proyectos colaborativos y la
+          experimentación con datos y modelos de aprendizaje automático
+          <span class="highlighted-text">
+            sin necesidad de configurar un entorno local.
+          </span>
+        </p>
+        <p>
+          Está especialmente pensado para trabajar con notebooks de Python,
+          Julia y R.
+        </p>
+      </article>
+      <article class="article-class">
+        <a class="title-2 links" href="https://www.netlify.com/">
+          Netlify<i
+            class="ml-2 text-sm text-center fa-solid fa-link text-neutral-500"
+          ></i>
+        </a>
+        <hr class="my-2" />
+        <p>
+          Netlify es una
+          <span class="highlighted-text"
+            >plataforma de desarrollo y alojamiento web en la nube</span
+          >
+          que simplifica significativamente el proceso de creación y gestión de
+          sitios y aplicaciones.
+        </p>
+        <p>
+          Además, proporciona SSL gratuito para seguridad, escalabilidad
+          automática para manejar picos de tráfico y herramientas de análisis
+          para evaluar el rendimiento. Esto lo convierte en una solución
+          integral y poderosa que permite concentrarse en la construcción de
+          sitios web sin preocuparse por la complejidad de la infraestructura.
+        </p>
+      </article>
+    </section>
+    <!-- DOWNLOADS -->
+    <section
+      class="flex-col grid-cols-2 my-10 article-class lg:grid place-items-center"
+    >
+      <div class="text-center">
+        <h4 class="text-xl font-semibold text-emerald-500">
+          Algunos conceptos básicos de Python
+        </h4>
+        <a
+          href="datos/conceptos_basicos_python.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-red-400 links"
+          >Sobre Python<i class="ml-2 text-red-400 fa-solid fa-download"></i
+        ></a>
+      </div>
+
+      <div class="mt-6 text-center lg:mt-0">
+        <h4 class="text-xl font-semibold text-emerald-500">
+          Datos utilizados en los ejemplos presentados
+        </h4>
+        <a
+          href="datos/conceptos_basicos_python.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-red-400 links"
+          >Descargar datos<i class="ml-2 text-red-400 fa-solid fa-download"></i
+        ></a>
+      </div>
+    </section>
+    <!-- COLAB NOTEBOOKS -->
+    <section>
+      <article class="article-class">
+        <script src="https://gist.github.com/MOrtmann90/7e64ef06d1aa6ca170e7cd046d1d8241.js"></script>
+        <span class="flex justify-end text-red-400"
+          ><a
+            href="cuadernos/explorando_datos.ipynb"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="links"
+            >Descargar notebook<i class="ml-2 fa-solid fa-download"></i></a
+        ></span>
+      </article>
+      <article class="article-class">
+        <script src="https://gist.github.com/MOrtmann90/008d060bc8b0b941fa404b840fd2f6fd.js"></script>
+        <span class="flex justify-end text-red-400"
+          ><a
+            href="cuadernos/exportando_mapas.ipynb"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="links"
+            >Descargar notebook<i class="ml-2 fa-solid fa-download"></i></a
+        ></span>
+      </article>
+    </section>
+    <!-- ADITIONAL RESOURCES -->
+    <section>
+      <article class="article-class">
+        <h2 class="title-2">Recursos adicionales</h2>
+        <div class="flex-col grid-cols-2 mt-4 lg:grid">
+          <!-- left list -->
+          <ul class="pl-5 mx-auto">
+            <li class="links">
+              <a
+                href="https://mappinggis.com/2012/11/lenguajes-de-programacion-gis/"
+                target="_blank"
+                >Lenguajes de programación para GIS</a
+              >
+            </li>
+            <li class="links">
+              <a
+                href="https://mappinggis.com/2023/02/habilidades-para-usar-eficazmente-un-sig/"
+                target="_blank"
+                >10 habilidades para usar eficazmente un SIG</a
+              >
+            </li>
+            <li class="links">
+              <a
+                href="https://mappinggis.com/2019/03/7-razones-para-aprender-python-si-trabajas-con-gis/"
+                target="_blank"
+                >7 razones para aprender Python si trabajas con SIG</a
+              >
+            </li>
+            <li class="links">
+              <a
+                href="https://mappinggis.com/2020/11/7-maneras-de-usar-python-en-qgis/"
+                target="_blank"
+                >7 maneras de usar Python en QGIS</a
+              >
+            </li>
+            <li class="links">
+              <a
+                href="https://www.markdownguide.org/cheat-sheet/"
+                target="_blank"
+                >Markdown (Texto enriquecido)</a
+              >
+            </li>
+          </ul>
+          <!-- right list -->
+          <ul class="pl-5 mx-auto">
+            <li class="links">
+              <a
+                href="https://youtu.be/chPhlsHoEPo?si=zy-SPRi2IHEf85Q7"
+                target="_blank"
+                >Curso de Python básico</a
+              >
+            </li>
+            <li class="links">
+              <a
+                href="https://www.youtube.com/watch?v=DfPAEdD7Cjg&list=PL_YyCdnLDJAinPCjURIS-Yr5FLpr2AyAO&pp=iAQB"
+                target="_blank"
+                >Geopandas para análisis espacial</a
+              >
+            </li>
+            <li class="links">
+              <a
+                href="https://mappinggis.com/2022/04/15-librerias-de-python-para-gis/"
+                target="_blank"
+                >15 librerías para Python</a
+              >
+            </li>
+            <li class="links">
+              <a href="https://python-charts.com/es/" target="_blank"
+                >Librerías para gráficar datos en Python</a
+              >
+            </li>
+            <li class="links">
+              <a
+                href="https://mappinggis.com/2021/11/geopandas-analisis-de-datos-geograficos-en-python/"
+                target="_blank"
+                >GeoPandas: Análisis de datos geográficos en Python</a
+              >
+            </li>
+            <li class="links">
+              <a
+                href="https://mappinggis.com/2022/09/folium-utilizando-leaflet-con-python/"
+                target="_blank"
+                >Folium para crear mapas dinámicos en Python</a
+              >
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <hr class="text-justify lg:w-[1200px] lg:mx-auto border-neutral-400 mt-8" />
+    <footer class="text-center article-class">
+      <p
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:dct="http://purl.org/dc/terms/"
+        class="text-neutral-400"
+      >
+        <a
+          property="dct:title"
+          rel="cc:attributionURL"
+          href="https://python-para-geo.netlify.app/"
+          >"Cuadernos de Python en la gestión de datos espaciales"</a
         >
-        que simplifica significativamente el proceso de creación y gestión de
-        sitios y aplicaciones.
+        by
+        <a
+          rel="cc:attributionURL dct:creator"
+          property="cc:attributionName"
+          href="https://www.linkedin.com/in/mauro-ortmann/"
+          >Mauro Ortmann</a
+        >
+        is licensed under
+      <span
+        ><a
+          href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
+          target="_blank"
+          rel="license noopener noreferrer"
+        >
+          <i
+            class="ml-1 text-xl text-neutral-400 fa-brands fa-creative-commons"
+          ></i
+          ><i
+            class="ml-1 text-xl text-neutral-400 fa-brands fa-creative-commons-by"
+          ></i
+          ><i
+            class="ml-1 text-xl text-neutral-400 fa-brands fa-creative-commons-sa"
+          ></i> </a
+      ></span>
       </p>
-      <p>
-        Además, proporciona SSL gratuito para seguridad, escalabilidad
-        automática para manejar picos de tráfico y herramientas de análisis para
-        evaluar el rendimiento. Esto lo convierte en una solución integral y
-        poderosa que permite concentrarse en la construcción de sitios web sin
-        preocuparse por la complejidad de la infraestructura.
-      </p>
-    </article>
-    <article class="article-class">
-      <h2 class="title-2">Recursos adicionales</h2>
-      <ul class="pl-5">
-        <li class="links">
-          <a href="https://colab.research.google.com/" target="_blank"
-            >Google Colab</a
-          >
-        </li>
-        <li class="links">
-          <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank"
-            >Markdown</a
-          >
-        </li>
-        <li class="links">
-          <a href="https://geopandas.org/en/stable/docs.html" target="_blank"
-            >Geopandas</a
-          >
-        </li>
-        <li class="links">
-          <a
-            href="https://youtu.be/chPhlsHoEPo?si=zy-SPRi2IHEf85Q7"
-            target="_blank"
-            >Curso de Python básico</a
-          >
-        </li>
-        <li class="links">
-          <a
-            href="https://www.youtube.com/watch?v=DfPAEdD7Cjg&list=PL_YyCdnLDJAinPCjURIS-Yr5FLpr2AyAO&pp=iAQB"
-            target="_blank"
-            >Geopandas para análisis espacial</a
-          >
-        </li>
-      </ul>
-    </article>
-    <footer class="article-class">
-      <p class="w-full text-right">Mauro Ortmann | 2023</p>
+
     </footer>
   </body>
 </html>
