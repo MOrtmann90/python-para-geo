@@ -546,21 +546,16 @@ li{
   margin-left: auto;
   margin-right: auto;
 }
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-.my-3{
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
 .my-10{
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
-.my-20{
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.ml-1{
+  margin-left: 0.25rem;
 }
 .ml-2{
   margin-left: 0.5rem;
@@ -571,23 +566,14 @@ li{
 .mt-4{
   margin-top: 1rem;
 }
-.mt-8{
-  margin-top: 2rem;
-}
 .mt-6{
   margin-top: 1.5rem;
 }
-.mb-4{
-  margin-bottom: 1rem;
-}
-.ml-1{
-  margin-left: 0.25rem;
+.mt-8{
+  margin-top: 2rem;
 }
 .block{
   display: block;
-}
-.inline-block{
-  display: inline-block;
 }
 .flex{
   display: flex;
@@ -603,15 +589,6 @@ li{
 }
 .w-full{
   width: 100%;
-}
-.w-1\/2{
-  width: 50%;
-}
-.w-3\/5{
-  width: 60%;
-}
-.w-4{
-  width: 1rem;
 }
 .flex-grow{
   flex-grow: 1;
@@ -630,17 +607,8 @@ li{
 .flex-col{
   flex-direction: column;
 }
-.place-items-end{
-  place-items: end;
-}
 .place-items-center{
   place-items: center;
-}
-.place-items-baseline{
-  place-items: baseline;
-}
-.place-items-stretch{
-  place-items: stretch;
 }
 .justify-end{
   justify-content: flex-end;
@@ -648,14 +616,8 @@ li{
 .justify-center{
   justify-content: center;
 }
-.justify-around{
-  justify-content: space-around;
-}
 .border{
   border-width: 1px;
-}
-.border-0{
-  border-width: 0px;
 }
 .border-neutral-400{
   --tw-border-opacity: 1;
@@ -674,9 +636,6 @@ li{
 .text-center{
   text-align: center;
 }
-.text-right{
-  text-align: right;
-}
 .text-justify{
   text-align: justify;
 }
@@ -691,15 +650,8 @@ li{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
 .font-semibold{
   font-weight: 600;
-}
-.font-thin{
-  font-weight: 100;
 }
 .text-emerald-500{
   --tw-text-opacity: 1;
@@ -721,13 +673,13 @@ li{
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
 }
+.text-red-500{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-emerald-400{
-  --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px){
@@ -741,16 +693,8 @@ li{
     margin-top: 0px;
   }
 
-  .lg\:flex{
-    display: flex;
-  }
-
   .lg\:grid{
     display: grid;
-  }
-
-  .lg\:hidden{
-    display: none;
   }
 
   .lg\:w-1\/3{
